@@ -67,8 +67,6 @@ proxies:
   - {"name":"bb_37","type":"vmess","server":"92.223.126.45","port":80,"cipher":"auto","uuid":"6fada13a-2caf-4d52-999f-aace406e617c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/bb","headers":{"host":"axu.axu666.tk"}}}
   - {"name":"bb_38","type":"vmess","server":"92.223.114.11","port":80,"cipher":"auto","uuid":"6fada13a-2caf-4d52-999f-aace406e617c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/bb","headers":{"host":"axu.axu666.tk"}}}
   - {"name":"bb_39","type":"vmess","server":"180.149.90.66","port":80,"cipher":"auto","uuid":"6fada13a-2caf-4d52-999f-aace406e617c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/bb","headers":{"host":"axu.axu666.tk"}}}
-  - {"name":"_1","type":"vless","server":"192.210.231.57","port":24423,"uuid":"11fa882f-b0fa-445b-e9fb-3c11bea997d8","network":"kcp"}
-  - {"name":"_2","type":"vless","server":"23.95.20.225","port":36370,"uuid":"4c5b02fe-e80c-4711-cbaa-980819e0861b","network":"kcp"}
   - {"name":"_3","type":"vmess","server":"104.224.178.243","port":58483,"cipher":"auto","uuid":"48bf51bf-357e-42b8-e85c-e93325a98c66","alterId":0,"tls":false,"skip-cert-verify":true,"network":"kcp"}
   - {"name":"_4","type":"vmess","server":"192.210.231.57","port":80,"cipher":"auto","uuid":"d211db34-5fc5-4236-d99b-71ce2b537c1d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
