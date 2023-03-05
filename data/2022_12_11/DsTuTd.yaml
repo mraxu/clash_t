@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-03-06 01:51:32
+# 创建时间：2023-03-06 01:55:02
 # 使用模版：V2RaySE 默认模版
 # 节点数量：49
 ####################################
@@ -67,9 +67,9 @@ proxies:
   - {"name":"334_44","type":"vmess","server":"92.223.126.45","port":80,"cipher":"auto","uuid":"6fada13a-2caf-4d52-999f-aace406e617c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/bb","headers":{"host":"axu.axu666.tk"}}}
   - {"name":"334_45","type":"vmess","server":"92.223.114.11","port":80,"cipher":"auto","uuid":"6fada13a-2caf-4d52-999f-aace406e617c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/bb","headers":{"host":"axu.axu666.tk"}}}
   - {"name":"334_46","type":"vmess","server":"180.149.90.66","port":80,"cipher":"auto","uuid":"6fada13a-2caf-4d52-999f-aace406e617c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/bb","headers":{"host":"axu.axu666.tk"}}}
-  - {"name":"334_49","type":"vmess","server":"104.224.178.243","port":58483,"cipher":"auto","uuid":"48bf51bf-357e-42b8-e85c-e93325a98c66","alterId":0,"tls":false,"skip-cert-verify":true,"network":"kcp"}
-  - {"name":"334_50","type":"vmess","server":"192.210.231.57","port":80,"cipher":"auto","uuid":"d211db34-5fc5-4236-d99b-71ce2b537c1d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"","type":"vmess","server":"104.224.178.243","port":30853,"cipher":"auto","uuid":"6facc474-bd67-48b8-e5ba-408fdabad882","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/123"}}
+  - {"name":"334_47","type":"vmess","server":"104.224.178.243","port":58483,"cipher":"auto","uuid":"48bf51bf-357e-42b8-e85c-e93325a98c66","alterId":0,"tls":false,"skip-cert-verify":true,"network":"kcp"}
+  - {"name":"334_48","type":"vmess","server":"192.210.231.57","port":80,"cipher":"auto","uuid":"d211db34-5fc5-4236-d99b-71ce2b537c1d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"334_49","type":"vmess","server":"104.224.178.243","port":30853,"cipher":"auto","uuid":"6facc474-bd67-48b8-e5ba-408fdabad882","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/123"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -122,9 +122,9 @@ proxy-groups:
       - '334_44'
       - '334_45'
       - '334_46'
+      - '334_47'
+      - '334_48'
       - '334_49'
-      - '334_50'
-      - ''
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -177,9 +177,9 @@ proxy-groups:
       - '334_44'
       - '334_45'
       - '334_46'
+      - '334_47'
+      - '334_48'
       - '334_49'
-      - '334_50'
-      - ''
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -232,9 +232,9 @@ proxy-groups:
       - '334_44'
       - '334_45'
       - '334_46'
+      - '334_47'
+      - '334_48'
       - '334_49'
-      - '334_50'
-      - ''
   - name: 📲 电报信息
     type: select
     proxies:
@@ -286,9 +286,9 @@ proxy-groups:
       - '334_44'
       - '334_45'
       - '334_46'
+      - '334_47'
+      - '334_48'
       - '334_49'
-      - '334_50'
-      - ''
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -340,9 +340,9 @@ proxy-groups:
       - '334_44'
       - '334_45'
       - '334_46'
+      - '334_47'
+      - '334_48'
       - '334_49'
-      - '334_50'
-      - ''
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -394,9 +394,9 @@ proxy-groups:
       - '334_44'
       - '334_45'
       - '334_46'
+      - '334_47'
+      - '334_48'
       - '334_49'
-      - '334_50'
-      - ''
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -465,9 +465,9 @@ proxy-groups:
       - '334_44'
       - '334_45'
       - '334_46'
+      - '334_47'
+      - '334_48'
       - '334_49'
-      - '334_50'
-      - ''
 
 rules:
 # 本地/局域网地址
