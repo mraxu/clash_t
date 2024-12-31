@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-31 15:08:26
+# 生成时间：2024-12-31 15:34:07
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -3710,19 +3710,6 @@ proxies:
     udp: true
     cipher: auto
     uuid: 088f1959-242d-4aa0-8d75-dfa40b426859
-  - name: 104.19.60.147 电信
-    port: 443
-    server: 104.19.60.147
-    type: vless
-    tls: true
-    udp: true
-    servername: angusgj.tk
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: angusgj.tk
-    cipher: auto
-    uuid: 088f1959-242d-4aa0-8d75-dfa40b426859
   - name: 电信2angusgj.tk-3405103793-1412249795-3224012503
     port: 443
     server: 104.18.156.21
@@ -3748,6 +3735,20 @@ proxies:
       headers:
         host: angusgj.tk
     cipher: auto
+    uuid: 088f1959-242d-4aa0-8d75-dfa40b426859
+  - name: 104.19.60.147 电信
+    port: 443
+    server: 104.19.60.147
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: angusgj.tk
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: angusgj.tk
     uuid: 088f1959-242d-4aa0-8d75-dfa40b426859
 proxy-groups:
   - name: 🚀 节点选择
@@ -4001,9 +4002,9 @@ proxy-groups:
       - defaultName
       - 2606:4700:3037::ac43:a168移动
       - 公司电信cf worker-old-term-.workers.dev-3305615950-3563894632
-      - 104.19.60.147 电信
       - 电信2angusgj.tk-3405103793-1412249795-3224012503
       - 104.16.25.46 电信次卧
+      - 104.19.60.147 电信
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -4256,9 +4257,9 @@ proxy-groups:
       - defaultName
       - 2606:4700:3037::ac43:a168移动
       - 公司电信cf worker-old-term-.workers.dev-3305615950-3563894632
-      - 104.19.60.147 电信
       - 电信2angusgj.tk-3405103793-1412249795-3224012503
       - 104.16.25.46 电信次卧
+      - 104.19.60.147 电信
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -4511,9 +4512,9 @@ proxy-groups:
       - defaultName
       - 2606:4700:3037::ac43:a168移动
       - 公司电信cf worker-old-term-.workers.dev-3305615950-3563894632
-      - 104.19.60.147 电信
       - 电信2angusgj.tk-3405103793-1412249795-3224012503
       - 104.16.25.46 电信次卧
+      - 104.19.60.147 电信
   - name: 📲 电报信息
     type: select
     proxies:
@@ -4765,9 +4766,9 @@ proxy-groups:
       - defaultName
       - 2606:4700:3037::ac43:a168移动
       - 公司电信cf worker-old-term-.workers.dev-3305615950-3563894632
-      - 104.19.60.147 电信
       - 电信2angusgj.tk-3405103793-1412249795-3224012503
       - 104.16.25.46 电信次卧
+      - 104.19.60.147 电信
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -5019,9 +5020,9 @@ proxy-groups:
       - defaultName
       - 2606:4700:3037::ac43:a168移动
       - 公司电信cf worker-old-term-.workers.dev-3305615950-3563894632
-      - 104.19.60.147 电信
       - 电信2angusgj.tk-3405103793-1412249795-3224012503
       - 104.16.25.46 电信次卧
+      - 104.19.60.147 电信
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -5273,9 +5274,9 @@ proxy-groups:
       - defaultName
       - 2606:4700:3037::ac43:a168移动
       - 公司电信cf worker-old-term-.workers.dev-3305615950-3563894632
-      - 104.19.60.147 电信
       - 电信2angusgj.tk-3405103793-1412249795-3224012503
       - 104.16.25.46 电信次卧
+      - 104.19.60.147 电信
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -5544,9 +5545,9 @@ proxy-groups:
       - defaultName
       - 2606:4700:3037::ac43:a168移动
       - 公司电信cf worker-old-term-.workers.dev-3305615950-3563894632
-      - 104.19.60.147 电信
       - 电信2angusgj.tk-3405103793-1412249795-3224012503
       - 104.16.25.46 电信次卧
+      - 104.19.60.147 电信
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
