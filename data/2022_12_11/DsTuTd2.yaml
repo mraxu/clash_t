@@ -3682,20 +3682,6 @@ proxies:
       headers:
         host: angusgj.tk
     uuid: 088f1959-242d-4aa0-8d75-dfa40b426859
-  - name: 104.16.25.46 电信
-    port: 443
-    server: 104.16.25.46
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: angusgj.tk
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: angusgj.tk
-    uuid: 088f1959-242d-4aa0-8d75-dfa40b426859
   - name: CN2
     port: 80
     server: 104.224.178.243
