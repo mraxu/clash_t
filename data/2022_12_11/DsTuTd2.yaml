@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-31 15:34:07
+# 生成时间：2024-12-31 16:43:19
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -3668,7 +3668,21 @@ proxies:
     cipher: auto
     uuid: 6fada13a-2caf-4d52-999f-aace406e617c
     alterId: 0
-  - name: hh
+  - name: 104.19.60.147 电信
+    port: 443
+    server: 104.19.60.147
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: angusgj.tk
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: angusgj.tk
+    uuid: 088f1959-242d-4aa0-8d75-dfa40b426859
+  - name: CN2
     port: 80
     server: 104.224.178.243
     type: vmess
@@ -3676,38 +3690,46 @@ proxies:
     tls: false
     udp: true
     version: "2"
+    servername: ""
     skip-cert-verify: true
     cipher: auto
     uuid: 1aeafcfa-0822-4e69-b7e7-cbf799259888
     alterId: 0
-  - name: defaultName
-    port: 80
+  - name: Misaka-Hysteria2
+    port: 65500
     server: 192.210.231.57
-    type: vmess
-    network: tcp
-    tls: false
+    type: hysteria2
     udp: true
-    version: "2"
+    sni: www.bing.com
+    password: a3f12da7
     skip-cert-verify: true
-    cipher: auto
-    uuid: d211db34-5fc5-4236-d99b-71ce2b537c1d
-    alterId: 0
-  - name: 2606:4700:3037::ac43:a168移动
-    port: 80
-    server: 2606:4700:3037::ac43:a168
-    type: vless
+  - name: CN2-Hysteria2
+    port: 65500
+    server: 104.224.178.243
+    type: hysteria2
     udp: true
+    sni: www.bing.com
+    password: a3f12da7
+    skip-cert-verify: true
+  - name: 23.95Misaka-Hysteria2
+    port: 65500
+    server: 23.95.20.190
+    type: hysteria2
+    udp: true
+    sni: www.bing.com
+    password: a3f12da7
+    skip-cert-verify: true
+  - name: 104.16.25.46 电信次卧
+    port: 443
+    server: 104.16.25.46
+    type: vless
+    tls: true
+    udp: true
+    servername: angusgj.tk
     ws-opts:
       path: /?ed=2048
       headers:
-        host: worker-old-term-da89.463033356.workers.dev
-    cipher: auto
-    uuid: 088f1959-242d-4aa0-8d75-dfa40b426859
-  - name: 公司电信cf worker-old-term-.workers.dev-3305615950-3563894632
-    port: 80
-    server: 2606:4700:3037::ac43:a168
-    type: vless
-    udp: true
+        host: angusgj.tk
     cipher: auto
     uuid: 088f1959-242d-4aa0-8d75-dfa40b426859
   - name: 电信2angusgj.tk-3405103793-1412249795-3224012503
@@ -3722,33 +3744,6 @@ proxies:
       headers:
         host: angusgj.tk
     cipher: auto
-    uuid: 088f1959-242d-4aa0-8d75-dfa40b426859
-  - name: 104.16.25.46 电信次卧
-    port: 443
-    server: 104.16.25.46
-    type: vless
-    tls: true
-    udp: true
-    servername: angusgj.tk
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: angusgj.tk
-    cipher: auto
-    uuid: 088f1959-242d-4aa0-8d75-dfa40b426859
-  - name: 104.19.60.147 电信
-    port: 443
-    server: 104.19.60.147
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: angusgj.tk
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: angusgj.tk
     uuid: 088f1959-242d-4aa0-8d75-dfa40b426859
 proxy-groups:
   - name: 🚀 节点选择
@@ -3998,13 +3993,13 @@ proxy-groups:
       - bb_209
       - bb_210
       - bb_211
-      - hh
-      - defaultName
-      - 2606:4700:3037::ac43:a168移动
-      - 公司电信cf worker-old-term-.workers.dev-3305615950-3563894632
-      - 电信2angusgj.tk-3405103793-1412249795-3224012503
-      - 104.16.25.46 电信次卧
       - 104.19.60.147 电信
+      - CN2
+      - Misaka-Hysteria2
+      - CN2-Hysteria2
+      - 23.95Misaka-Hysteria2
+      - 104.16.25.46 电信次卧
+      - 电信2angusgj.tk-3405103793-1412249795-3224012503
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -4253,13 +4248,13 @@ proxy-groups:
       - bb_209
       - bb_210
       - bb_211
-      - hh
-      - defaultName
-      - 2606:4700:3037::ac43:a168移动
-      - 公司电信cf worker-old-term-.workers.dev-3305615950-3563894632
-      - 电信2angusgj.tk-3405103793-1412249795-3224012503
-      - 104.16.25.46 电信次卧
       - 104.19.60.147 电信
+      - CN2
+      - Misaka-Hysteria2
+      - CN2-Hysteria2
+      - 23.95Misaka-Hysteria2
+      - 104.16.25.46 电信次卧
+      - 电信2angusgj.tk-3405103793-1412249795-3224012503
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -4508,13 +4503,13 @@ proxy-groups:
       - bb_209
       - bb_210
       - bb_211
-      - hh
-      - defaultName
-      - 2606:4700:3037::ac43:a168移动
-      - 公司电信cf worker-old-term-.workers.dev-3305615950-3563894632
-      - 电信2angusgj.tk-3405103793-1412249795-3224012503
-      - 104.16.25.46 电信次卧
       - 104.19.60.147 电信
+      - CN2
+      - Misaka-Hysteria2
+      - CN2-Hysteria2
+      - 23.95Misaka-Hysteria2
+      - 104.16.25.46 电信次卧
+      - 电信2angusgj.tk-3405103793-1412249795-3224012503
   - name: 📲 电报信息
     type: select
     proxies:
@@ -4762,13 +4757,13 @@ proxy-groups:
       - bb_209
       - bb_210
       - bb_211
-      - hh
-      - defaultName
-      - 2606:4700:3037::ac43:a168移动
-      - 公司电信cf worker-old-term-.workers.dev-3305615950-3563894632
-      - 电信2angusgj.tk-3405103793-1412249795-3224012503
-      - 104.16.25.46 电信次卧
       - 104.19.60.147 电信
+      - CN2
+      - Misaka-Hysteria2
+      - CN2-Hysteria2
+      - 23.95Misaka-Hysteria2
+      - 104.16.25.46 电信次卧
+      - 电信2angusgj.tk-3405103793-1412249795-3224012503
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -5016,13 +5011,13 @@ proxy-groups:
       - bb_209
       - bb_210
       - bb_211
-      - hh
-      - defaultName
-      - 2606:4700:3037::ac43:a168移动
-      - 公司电信cf worker-old-term-.workers.dev-3305615950-3563894632
-      - 电信2angusgj.tk-3405103793-1412249795-3224012503
-      - 104.16.25.46 电信次卧
       - 104.19.60.147 电信
+      - CN2
+      - Misaka-Hysteria2
+      - CN2-Hysteria2
+      - 23.95Misaka-Hysteria2
+      - 104.16.25.46 电信次卧
+      - 电信2angusgj.tk-3405103793-1412249795-3224012503
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -5270,13 +5265,13 @@ proxy-groups:
       - bb_209
       - bb_210
       - bb_211
-      - hh
-      - defaultName
-      - 2606:4700:3037::ac43:a168移动
-      - 公司电信cf worker-old-term-.workers.dev-3305615950-3563894632
-      - 电信2angusgj.tk-3405103793-1412249795-3224012503
-      - 104.16.25.46 电信次卧
       - 104.19.60.147 电信
+      - CN2
+      - Misaka-Hysteria2
+      - CN2-Hysteria2
+      - 23.95Misaka-Hysteria2
+      - 104.16.25.46 电信次卧
+      - 电信2angusgj.tk-3405103793-1412249795-3224012503
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -5541,13 +5536,13 @@ proxy-groups:
       - bb_209
       - bb_210
       - bb_211
-      - hh
-      - defaultName
-      - 2606:4700:3037::ac43:a168移动
-      - 公司电信cf worker-old-term-.workers.dev-3305615950-3563894632
-      - 电信2angusgj.tk-3405103793-1412249795-3224012503
-      - 104.16.25.46 电信次卧
       - 104.19.60.147 电信
+      - CN2
+      - Misaka-Hysteria2
+      - CN2-Hysteria2
+      - 23.95Misaka-Hysteria2
+      - 104.16.25.46 电信次卧
+      - 电信2angusgj.tk-3405103793-1412249795-3224012503
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
