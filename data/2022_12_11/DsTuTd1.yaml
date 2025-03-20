@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/11 01:22:37
-# 配置生成日期：2025-03-20 18:42:21
+# 配置生成日期：2025-03-20 19:03:14
 
 mixed-port: 7890
 allow-lan: false
@@ -50,7 +50,7 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: _1
+  - name: '213'
     type: vmess
     server: 23.95.20.190
     port: 443
@@ -58,18 +58,7 @@ proxies:
     network: tcp
     tls: false
     ip-version: dual
-    udp: true
-    cipher: auto
-  - name: _2
-    type: vmess
-    server: 192.210.231.57
-    port: 443
-    uuid: 9b6c8bba-a4fe-4892-fe5d-941dd771b32e
-    network: tcp
-    tls: false
-    ip-version: dual
-    udp: true
-    alterId: 0
+    alterId: 1653
     cipher: auto
   - name: '443'
     type: vmess
@@ -79,8 +68,7 @@ proxies:
     network: tcp
     tls: false
     ip-version: dual
-    udp: true
-    alterId: 0
+    alterId: 1543
     cipher: auto
 proxy-groups:
   - name: 🚀 节点选择
@@ -88,8 +76,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _1
-      - _2
+      - '213'
       - '443'
   - name: ♻️ 自动选择
     type: url-test
@@ -97,8 +84,7 @@ proxy-groups:
     interval: 300
     tolerance: 5000
     proxies:
-      - _1
-      - _2
+      - '213'
       - '443'
   - name: 🌍 国外媒体
     type: select
@@ -106,32 +92,28 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _1
-      - _2
+      - '213'
       - '443'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _1
-      - _2
+      - '213'
       - '443'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _1
-      - _2
+      - '213'
       - '443'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _1
-      - _2
+      - '213'
       - '443'
   - name: 🎯 全球直连
     type: select
@@ -155,8 +137,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _1
-      - _2
+      - '213'
       - '443'
 rules:
 # 本地/局域网地址
